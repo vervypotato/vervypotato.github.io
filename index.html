@@ -1,34 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Homepage</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Himanshu Borkar — Academic & Research Homepage</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f0f0f0;
       text-align: center;
-      margin: 50px;
-      background: #f5f5f5;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
     }
-    h1 {
-      color: #333;
-    }
-    a {
+    header a {
       color: #0077cc;
       text-decoration: none;
       margin: 0 10px;
+      font-size: 14px;
     }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #222;
+    }
+    section {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+    }
+    .tag {
+      display: inline-block;
+      background-color: #f0f0f0;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      margin-right: 6px;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      padding: 15px 0;
+      border-top: 1px solid #eee;
+      background-color: #fafafa;
+    }
+    ul { list-style-type: none; padding: 0; }
+    li { margin-bottom: 8px; }
   </style>
 </head>
 <body>
-  <h1>Hi, I'm Himanshu Borkar! </h1>
-  <p>Welcome to my personal website!</p>
-  <p>
+  <header>
+    <a href="mailto:himanshuborkar04@gmail.com">Email</a> |
     <a href="https://github.com/vervypotato">GitHub</a> |
-    <a href="https://linkedin.com/in/himanshu-borkar-65609924b">LinkedIn</a> |
-    <a href="mailto:himanshuborkar04@gmail.com">Email</a>
-  </p>
+    <a href="https://linkedin.com/in/himanshu-borkar-65609924b">LinkedIn</a>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h1>Hi, I'm Himanshu Borkar!</h1>
+      <p>Welcome to my academic and research homepage. I'm a student passionate about physics, computation, and technology that makes a difference.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Bachelor of Technology</strong> — Electronics or Physics Major, <em>{{UNIVERSITY_NAME}}</em> ({{START_YEAR}} – {{END_YEAR}})</li>
+        <li><strong>High School</strong> — {{SCHOOL_NAME}}, ({{START_YEAR2}} – {{END_YEAR2}})</li>
+      </ul>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+      <p>My research interests include:</p>
+      <p><span class="tag">Attosecond Physics</span> <span class="tag">Quantum Optics</span> <span class="tag">Computational Physics</span> <span class="tag">Machine Learning</span></p>
+      <h3>Current Projects</h3>
+      <ul>
+        <li><strong>Attosecond Pulse Generation</strong> — Exploring UV light interactions to produce attosecond pulses.</li>
+        <li><strong>Monte Carlo Simulations for Quantum Systems</strong> — Investigating variational methods for atomic and molecular systems.</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ul>
+        <li><strong>H. Borkar</strong>, “{{PAPER_TITLE_1}},” <em>{{JOURNAL_NAME}}</em>, {{YEAR}}.</li>
+        <li><strong>H. Borkar</strong>, “{{PAPER_TITLE_2}},” <em>{{CONFERENCE_NAME}}</em>, {{YEAR2}}.</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p><span class="tag">Python</span> <span class="tag">C/C++</span> <span class="tag">LaTeX</span> <span class="tag">Arduino</span> <span class="tag">MATLAB</span> <span class="tag">Data Analysis</span></p>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul>
+        <li>Teaching Assistant for <em>{{COURSE_NAME}}</em> ({{SEMESTER}})</li>
+      </ul>
+    </section>
+
+    <section id="awards">
+      <h2>Awards</h2>
+      <ul>
+        <li>{{AWARD_NAME}} — {{YEAR_AWARD}}</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:himanshuborkar04@gmail.com">himanshuborkar04@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/vervypotato">github.com/vervypotato</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/himanshu-borkar-65609924b">linkedin.com/in/himanshu-borkar-65609924b</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Himanshu Borkar — Replace {{placeholders}} with your details. Simple academic homepage template.</p>
+  </footer>
 </body>
 </html>
-
